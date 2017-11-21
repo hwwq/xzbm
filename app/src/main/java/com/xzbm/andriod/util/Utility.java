@@ -50,7 +50,7 @@ public class Utility {
                     city.setProvinceId(provinceId);
                     city.save();
                 }
-                return false;
+                return true;
             } catch (JSONException e){
                 e.printStackTrace();
             }
